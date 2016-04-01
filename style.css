@@ -1,0 +1,31 @@
+
+/*font-family: 'Orbitron', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Economica', sans-serif;
+font-family: 'Montez', cursive;*/
+
+body {
+  background-color: lemonchiffon;
+}
+
+button {
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+}
+
+.hello-area {
+  font-family: 'Architects Daughter', cursive;
+
+}
+
+.hello-area h1{
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+.random-gif {
+
+}
