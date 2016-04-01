@@ -27,25 +27,14 @@ $(function(){
       banannaSandwich = response;
       beginProcessingBanannaSandwich();
     })
-​
-    $.ajax({
-      url: 'http://www.omdbapi.com/?t=Willow&y=&plot=short&r=json',
-      type: 'GET'
-    }).done(function(response){
-      console.log(response);
-      banannaSandwich = response;
-      beginProcessingBanannaSandwich();
-    })
   }
 ​
   function beginProcessingBanannaSandwich(){
     $("body").append("<p> " + banannaSandwich.Title + " was made in " + banannaSandwich.Year + "</p>");
   }
-​
   //kill some time
   for(var x = 0; x < 1000; x++){
   }
-
   banannaSandwich.thing = 2;
   movieData.dateCreated = 'Friday';
 })
