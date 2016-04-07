@@ -1,0 +1,59 @@
+
+/*font-family: 'Orbitron', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Economica', sans-serif;
+font-family: 'Montez', cursive;*/
+
+body {
+  background-color: teal;
+  font-family: 'Architects Daughter', 'arial', cursive;
+}
+
+button {
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+  box-shadow: 10px gray;
+}
+
+h1{
+  font-family: 'Orbitron', sans-serif;
+  padding-bottom: 1px;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+  margin: auto;
+}
+
+
+.buttons {
+  height: auto;
+  width:auto;
+  padding: 5px;
+  margin: auto;
+}
+
+.gif-window {
+  width: 70%;
+  min-height: 300px;
+  max-height: 400px;
+  padding: 2px;
+  border: 2px solid indigo;
+  background-color: darkslateblue;
+  margin: auto;
+}
+
+.gif-window img{
+  display: block;
+  max-height: inherit;
+  max-width: inherit;
+  padding: 2px;
+  border: 1px solid indigo;
+  margin: auto;
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html ng-app="gipherator">
+
+<head>
+  <title>Gif(as in 'good')erator</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,900|Bangers|Architects+Daughter|Kaushan+Script|Satisfy|Economica:400,700|Montez" rel="stylesheet" type="text/css">
+  <!--Libraries/Frameworks-->
+  <script src="jquery.min.js"></script>
+  <script src="angular.min.js"></script>
+  <!--Development Files-->
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js"></script>
+</head>
+
+<body ng-controller="gifControl">
+
+  <div class="hello-area">
+    <h1>Giferator</h1>
+    If you have an appetite for viewing animated gifs, you are very much in the right place.
+  </div>
+
+  <div class="buttons">
+    <input type="text" ng-model="gifTag" placeholder="tag">
+    <button ng-click="gipherateRandom()">Giferate!</button>
+    <button ng-click="clearGif()">Gif-be-gone!</button>
+
+  <div ng-show="gifMessage" class="gif-mindow">
+    Here's your gif. That will be $2.00.
+  </div>
+
+  <div ng-show="gifWindow" class="gif-window">
+    <img ng-src="{{gif.image_original_url}}">
+  </div>
+
+
+
+
+</body>
+
+
+
+</html>
